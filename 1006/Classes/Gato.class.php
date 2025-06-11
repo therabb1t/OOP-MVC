@@ -9,15 +9,13 @@ class Gato{
     public $Sexo;
 
     public function miar(){
-        return " Miau!";
+        return "<br>Miau!";
 }
     public function dormir(){
-    return "Dormindo";
+    return "<br>Dormindo";
 }
     public function comer(){
-        return "Comendo";
+        return "<br>Comendo";
 }
 }
-
-
 ?>

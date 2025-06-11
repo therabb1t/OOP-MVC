@@ -4,7 +4,7 @@ class Pessoa{
     public $Idade;
 
 public function apresentar(): string {
-        return "Socorro, meu nome é {$this->Nome} e tenho {$this->Idade} anos";
+        return "Olá, meu nome é {$this->Nome} e tenho {$this->Idade} anos!";
     }
 }
 
